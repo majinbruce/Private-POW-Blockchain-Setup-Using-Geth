@@ -1,0 +1,8 @@
+/node1/geth/LOCK
+/node1/geth/chaindata/LOCK
+/node1/geth/chaindata/ancient/FLOCK
+/node1/geth/nodes/LOCK
+/node2/geth/LOCK
+/node2/geth/chaindata/LOCK
+/node2/geth/chaindata/ancient/FLOCK
+/node2/geth/nodes/LOCK

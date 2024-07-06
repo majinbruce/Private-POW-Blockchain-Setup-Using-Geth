@@ -1,0 +1,30 @@
+=============== Jul 6, 2024 (IST) ===============
+14:42:04.666719 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:42:04.674029 db@open opening
+14:42:04.675026 version@stat F·[] S·0B[] Sc·[]
+14:42:04.677580 db@janitor F·2 G·0
+14:42:04.677580 db@open done T·3.5511ms
+14:42:04.682924 db@close closing
+14:42:04.682924 db@close done T·0s
+=============== Jul 6, 2024 (IST) ===============
+14:42:37.790071 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:42:37.790071 version@stat F·[] S·0B[] Sc·[]
+14:42:37.790071 db@open opening
+14:42:37.790071 journal@recovery F·1
+14:42:37.792100 journal@recovery recovering @1
+14:42:37.795666 memdb@flush created L0@2 N·11 S·588B "H\xb0R..\x15S\xc1,v4":"r\x00\x00..\x15S\xc1,v6"
+14:42:37.797666 version@stat F·[1] S·588B[588B] Sc·[0.25]
+14:42:37.808511 db@janitor F·3 G·0
+14:42:37.808511 db@open done T·18.4406ms
+14:44:06.193836 db@close closing
+14:44:06.193957 db@close done T·120.5µs
+=============== Jul 6, 2024 (IST) ===============
+14:45:44.347925 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:45:44.347925 version@stat F·[1] S·588B[588B] Sc·[0.25]
+14:45:44.347925 db@open opening
+14:45:44.349100 journal@recovery F·1
+14:45:44.350098 journal@recovery recovering @3
+14:45:44.365005 memdb@flush created L0@5 N·11 S·518B "Dat..ion,v14":"unc..own,v20"
+14:45:44.368713 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+14:45:44.381096 db@janitor F·4 G·0
+14:45:44.381096 db@open done T·33.1708ms
