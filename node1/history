@@ -1,0 +1,30 @@
+
+admin.peers
+admin.addPeer("enode://f2bddec3bdbc5ccc59186b6d52c73b0b6edbf2c15c61dbabeec0d0a2d3014b29626af5c3ec26356b0d8e2a22a856024de85efd200e2e679f9a2e00ea8abd2ad3@127.0.0.1:30305?discport=0")
+admin.peers
+web3.fromWei(eth.getBalance('0xca57F3b40B42FCce3c37B8D18aDBca5260ca72EC'), 'ether');
+miner.start()
+miner.stop()
+web3.fromWei(eth.getBalance('0xc39afd01fad36e14ed7b4507b0d31d7c72aba55f'), 'ether');
+miner.start()
+miner.stop()
+web3.fromWei(eth.getBalance('0xc39afd01fad36e14ed7b4507b0d31d7c72aba55f'), 'ether');
+admin.peers
+admin.addPeer("enode://f2bddec3bdbc5ccc59186b6d52c73b0b6edbf2c15c61dbabeec0d0a2d3014b29626af5c3ec26356b0d8e2a22a856024de85efd200e2e679f9a2e00ea8abd2ad3@127.0.0.1:30305?discport=0")
+admin.peers
+miner.start()
+miner.stop()
+miner.start()
+admin.peers
+miner.start()
+admin.peers
+miner.start()
+eth.hashrate
+miner.start(1)
+miner.setEtherbace("0xb155d4ad86a54c81d34f1f35c550e2e79e980258")
+miner.setEtherbase("0xb155d4ad86a54c81d34f1f35c550e2e79e980258")
+miner.start(1)
+miner.start
+miner.start()
+miner.stop
+miner.stop()

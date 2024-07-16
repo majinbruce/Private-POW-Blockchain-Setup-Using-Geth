@@ -30,3 +30,41 @@
 14:46:20.662100 db@open done T·16.4764ms
 14:46:23.731051 db@close closing
 14:46:23.731557 db@close done T·505.8µs
+=============== Jul 6, 2024 (IST) ===============
+14:47:10.489139 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:47:10.489139 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+14:47:10.489139 db@open opening
+14:47:10.489139 journal@recovery F·1
+14:47:10.491161 journal@recovery recovering @6
+14:47:10.505359 memdb@flush created L0@8 N·2 S·335B "eth..\x15S\xc1,v25":"unc..own,v26"
+14:47:10.508663 version@stat F·[3] S·1KiB[1KiB] Sc·[0.75]
+14:47:10.520231 db@janitor F·5 G·0
+14:47:10.520231 db@open done T·31.092ms
+=============== Jul 15, 2024 (IST) ===============
+16:30:15.151122 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:30:15.175204 version@stat F·[3] S·1KiB[1KiB] Sc·[0.75]
+16:30:15.175204 db@open opening
+16:30:15.175916 journal@recovery F·1
+16:30:15.179636 journal@recovery recovering @9
+16:30:15.211309 memdb@flush created L0@11 N·1603 S·79KiB "H\x00 ..z \x84,v1136":"unc..own,v29"
+16:30:15.217780 version@stat F·[4] S·80KiB[80KiB] Sc·[1.00]
+16:30:15.238912 db@janitor F·6 G·0
+16:30:15.239421 db@open done T·63.7043ms
+16:30:15.239634 table@compaction L0·4 -> L1·0 S·80KiB Q·1631
+16:30:15.286889 table@build created L1@14 N·1049 S·58KiB "Dat..ion,v14":"unc..own,v1630"
+16:30:15.286889 version@stat F·[0 1] S·58KiB[0B 58KiB] Sc·[0.00 0.00]
+16:30:15.290150 table@compaction committed F-3 S-21KiB Ke·0 D·578 T·50.5166ms
+16:30:15.291532 table@remove removed @8
+16:30:15.293133 table@remove removed @5
+16:30:15.294286 table@remove removed @2
+=============== Jul 16, 2024 (IST) ===============
+15:36:38.108228 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:36:38.118208 version@stat F·[0 1] S·58KiB[0B 58KiB] Sc·[0.00 0.00]
+15:36:38.118208 db@open opening
+15:36:38.118208 journal@recovery F·1
+15:36:38.120020 journal@recovery recovering @12
+15:36:38.150954 memdb@flush created L0@15 N·16214 S·448KiB "\x01\x9b\x85..˚\xb2,v3040":"\xeb\x1d\xc2..q:\x19,v3049"
+15:36:38.153668 version@stat F·[1 1] S·507KiB[448KiB 58KiB] Sc·[0.25 0.00]
+15:36:38.162365 db@janitor F·5 G·1
+15:36:38.162365 db@janitor removing table-11
+15:36:38.162365 db@open done T·44.1565ms

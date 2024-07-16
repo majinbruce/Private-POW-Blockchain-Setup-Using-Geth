@@ -18,3 +18,40 @@
 14:46:20.694942 db@open done T·18.1307ms
 14:46:20.700739 db@close closing
 14:46:20.702335 db@close done T·1.596ms
+=============== Jul 6, 2024 (IST) ===============
+14:47:10.535843 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:47:10.536358 version@stat F·[1] S·4KiB[4KiB] Sc·[0.25]
+14:47:10.536358 db@open opening
+14:47:10.536358 journal@recovery F·1
+14:47:10.537830 journal@recovery recovering @3
+14:47:10.541695 memdb@flush created L0@5 N·1 S·162B "loc..seq,v138":"loc..seq,v138"
+14:47:10.544597 version@stat F·[2] S·4KiB[4KiB] Sc·[0.50]
+14:47:10.557024 db@janitor F·4 G·0
+14:47:10.557024 db@open done T·20.6658ms
+=============== Jul 15, 2024 (IST) ===============
+16:30:15.353844 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:30:15.378098 version@stat F·[2] S·4KiB[4KiB] Sc·[0.50]
+16:30:15.378176 db@open opening
+16:30:15.379258 journal@recovery F·1
+16:30:15.384279 journal@recovery recovering @6
+16:30:15.408086 memdb@flush created L0@8 N·1 S·162B "loc..seq,v140":"loc..seq,v140"
+16:30:15.413176 version@stat F·[3] S·4KiB[4KiB] Sc·[0.75]
+16:30:15.431721 db@janitor F·5 G·0
+16:30:15.431721 db@open done T·53.5453ms
+=============== Jul 16, 2024 (IST) ===============
+15:36:38.215765 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:36:38.228739 version@stat F·[3] S·4KiB[4KiB] Sc·[0.75]
+15:36:38.228739 db@open opening
+15:36:38.228739 journal@recovery F·1
+15:36:38.230621 journal@recovery recovering @9
+15:36:38.238889 memdb@flush created L0@11 N·1 S·162B "loc..seq,v142":"loc..seq,v142"
+15:36:38.241219 version@stat F·[4] S·4KiB[4KiB] Sc·[1.00]
+15:36:38.251292 db@janitor F·6 G·0
+15:36:38.251292 db@open done T·22.553ms
+15:36:38.251292 table@compaction L0·4 -> L1·0 S·4KiB Q·143
+15:36:38.269517 table@build created L1@14 N·123 S·3KiB "loc..seq,v142":"version,v1"
+15:36:38.269517 version@stat F·[0 1] S·3KiB[0B 3KiB] Sc·[0.00 0.00]
+15:36:38.272449 table@compaction committed F-3 S-583B Ke·0 D·16 T·19.0403ms
+15:36:38.272970 table@remove removed @8
+15:36:38.273513 table@remove removed @5
+15:36:38.273513 table@remove removed @2
